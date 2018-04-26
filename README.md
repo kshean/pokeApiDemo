@@ -118,6 +118,7 @@ sameple request:
 
 ### Assumptions
 I was not able to find drainHP from the attack class. Therefore, each attack has a randomnly generated drainHP associated between 1 to 100.
+No input validations.
 
 
 ### Technologies
