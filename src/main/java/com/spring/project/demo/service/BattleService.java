@@ -1,5 +1,7 @@
 package com.spring.project.demo.service;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import org.springframework.stereotype.Service;
@@ -24,8 +26,12 @@ public class BattleService {
 		this.setPokemonTwoHP(100);
 
 		BattleResult battleResult = new BattleResult();
+		List<String> historyOne = new ArrayList<>();
+		List<String> historyTwo = new ArrayList<>();
 		battleResult.setPokemonOne(pokemonOne.getName());
 		battleResult.setPokemonTwo(pokemonTwo.getName());
+		battleResult.setPokemonOneMoveHisotry(historyOne);
+		battleResult.setPokemonTwoMoveHistory(historyTwo);
 		this.setPersistentResult(battleResult);
 
 		while (!fightIsOver()) {
