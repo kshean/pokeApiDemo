@@ -4,7 +4,6 @@ Demo project to connect to pokemon api (https://pokeapi.co)
 
 ## Getting Started
 
-
 ### Prerequisites
 
 Java, Maven
@@ -22,16 +21,8 @@ git clone https://github.com/kshean/pokeApiDemo.git
 mvn clean spring-boot:run
 ```
 
-sample output
-
-```
-
-```
-
 ### Endpoints
 Using your favorite http client, make the following requests.
-
-
 
 #### Get pokemon
 
@@ -130,8 +121,8 @@ I was not able to find drainHP from the attack class. Therefore, each attack has
 
 
 ### Technologies
-pokeApiCleint: Kotlin (and Java) - PokeKotlin by sargunster (https://github.com/PokeAPI/pokekotlin)
-Java 8
-maven
-Spring-boot
+pokeApiCleint: Kotlin (and Java) - PokeKotlin by sargunster (https://github.com/PokeAPI/pokekotlin),
+Java 8,
+maven,
+Spring-boot,
 Spring Initializer (https://start.spring.io/)
